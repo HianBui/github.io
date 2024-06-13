@@ -1,0 +1,99 @@
+body{
+    background-image: url("../img/mario.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+}
+html{
+    color: #eee;
+}
+.wrapper{
+    background-color: rgba(30, 32, 33, 0.363);
+    backdrop-filter: blur(20px);
+    border: 3px solid #e7e7e7;
+    position: relative;
+}
+.field input[type = "submit"]{
+    transition: .3s ease-in-out;
+}
+.field input[type = "submit"]:hover{
+    background-image: url(../img/bg-01-red.png) !important;
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+.linkLogin{
+    color: #e60012 !important;
+    font-weight: 700;
+}
+.character{
+    width: 30%;
+    position: absolute;
+    left: 130px;
+    z-index: 999;
+}
+.character2{
+    width: 10%;
+    position: absolute;
+    right: 400px;
+    top: 450px;
+}
+.search button.active{
+    background-image: url(../img/bg-01-red.png) !important;
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+    color: #eee;
+}
+.search button {
+    background-color: #333;
+}
+.logout{
+    background-color: #333;
+    transition: .3s ease-in-out !important;
+}
+.logout:hover{
+    background-image: url(../img/bg-01-red.png) !important;
+    background-size: cover;
+    background-position: center;
+    transition: .3s ease-in-out;
+    color: #eee;
+}
+.typing-area button{
+    background-color: #e60012;
+}
+.chat-area header{
+    background-color: #b3000f;
+    border-radius: 14px 14px 0px 0px;
+    box-shadow: inset 0px 0px -10px 10px #00000034,
+                inset 0px 0px -10px 10px #00000034;
+    z-index: 999;
+}
+.chat-box{
+    position: relative;
+    height: 500px;
+    overflow-y: auto;
+    padding: 10px 30px 20px 30px;
+    background: url("../img/watermark.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #e60012;
+    box-shadow: inset 0 32px 32px -32px rgb(0 0 0 / 5%),
+                inset 0 32px 32px -32px rgb(0 0 0 / 5%);
+  }
+
+  .wrapper.user{
+    background-color: #333333ce;
+    backdrop-filter: blur(50px);
+  }
+
+  .users .details span{
+    color: #fff;
+  }
+  .users .details p{
+    color: #468669;
+  }
+  .users .content .details div{
+    color: #e6e6e6;
+  }
